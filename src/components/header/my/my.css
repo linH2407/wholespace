@@ -1,0 +1,23 @@
+.my__container {
+    margin: 0 144px;
+}
+h2 {
+    display: block;
+    font-size: clamp(40px, 8vw, 70px);
+    color: var(--lightest-slate);
+    line-height: 1.1;
+    font-weight: 650;
+}
+ h3 {
+    font-size: clamp(40px, 8vw, 70px);
+    margin: 10px 0;
+    color: var(--slate);
+    line-height: 0.9;
+    font-weight: 700;
+ }
+p {
+    margin: 40px 0px 20px 0px;
+    max-width: 540px;
+    height: 72px;
+    font-size: 18px;
+}
