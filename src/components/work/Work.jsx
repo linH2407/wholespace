@@ -3,7 +3,9 @@ import './work.css';
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <div className='work__container'>
+      <h2 className='number-heading'><span>03.</span>Some Things I've Built</h2>
+    </div>
   )
 }
 

@@ -15,7 +15,7 @@ h2 {
     line-height: 0.9;
     font-weight: 700;
  }
-p {
+.my__content p {
     margin: 40px 0px 20px 0px;
     max-width: 540px;
     height: 72px;
