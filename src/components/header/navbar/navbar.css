@@ -9,6 +9,7 @@
     height: var(--nav-height);
     background-color: rgba(10, 25, 47, 0.85);
     padding: 0 50px;
+    position: relative;
 }
 .navbar__logo {
     font-size: 42px;
@@ -24,7 +25,7 @@ ul li a span {
     text-align: right;
 }
 ul li {
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
     padding: 10px;
     margin-right: 5px;
 }
@@ -52,5 +53,93 @@ a:hover {
     cursor: pointer;
     transition: var(--transition);
     margin-left: 15px;
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
 }
+.navbar__button button:hover {
+    background-color: var(--green-tint);
+
+}
+.navbar-menu {
+    display: none;
+    position: relative;
+    background-color: var(--lightest-navy);
+}
+.navbar__menu-container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 50px 10px;
+    width: min(75vw, 400px);
+    height: 100vh;
+    outline: 0px;
+    background-color: var(--light-navy);
+    box-shadow: -10px 0px 30px -15px var(--navy-shadow);
+    transform: translateX(0vw);
+    visibility: visible;
+    transition: var(--transition);
+    z-index: 0;
+}
+
+.navbar-menu .btn {
+    color: var(--green);
+    background-color: transparent;
+    border: none;  
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 24px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    z-index: 1;
+}
+  @media screen and (max-width: 760px) {
+     
+    .navbar {
+        padding: 0 35px;
+    }
+    .navbar__links {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+    }
+    .navbar__menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-menu ul li{
+        font-size: clamp(var(--fz-sm),4vw,var(--fz-lg));
+        
+    }
+    .navbar__menu-container .navbar__button{
+        margin-top: 20px;
+    }
+    .navbar__menu-container .navbar__button button{
+        padding: 18px 50px;
+    }
+    .navbar__menu-container ul li a {
+        display: flex;
+        
+        flex-direction: column;
+        text-align: center;
+        padding: 3px 20px 20px;
+    }  
+    .navbar__menu-container ul li a span{
+        
+        text-align: center;
+    }
+    .navbar__button button {
+        font-size: var(--fz-md);
+    }
+} 
