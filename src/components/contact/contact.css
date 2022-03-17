@@ -1,0 +1,52 @@
+.contact__container {
+    padding-top: 100px;   
+    margin: 0px auto;
+    max-width: 600px;
+}
+.contact__name {
+    text-align: center;
+}
+.contact__name span {
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-md),3vw,var(--fz-xl));
+  font-weight: 400;
+}
+.contact__name h2 {
+    font-weight: 700;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+    font-size: clamp(40px, 5vw, 60px);
+    margin: 10px 0 20px 0;
+}
+.contact__name .btn {
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 20px 28px;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 50px;
+    font-size: var(--fz-sm);
+}
+.btn:hover {
+    background-color: var(--green-tint);
+}
+.contact__icon {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 140px;
+}
+.contact__icon i {
+    padding: 15px;
+    color: var(--slate);
+}
+.contact__icon i:hover {
+    color: var(--green);
+    cursor: pointer;
+}

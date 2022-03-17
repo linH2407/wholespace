@@ -1,6 +1,7 @@
 .experience__container {
-    margin: 0 294px;
     padding: 100px 0;
+    margin: 0px auto;
+    max-width: 700px;
 }
 .ex__content {
     display: flex;
@@ -34,7 +35,7 @@
 .job-btn button span{
     
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
    
 }
 .active-btn {
@@ -67,7 +68,7 @@ h3 > span {
 .content p {
     color: var(--light-slate);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-md);
     margin-top: 5px;
 }
 .content ul {
@@ -78,6 +79,7 @@ h3 > span {
     margin-bottom: -5px;
     line-height: 1.7;
     position: relative;
+    font-size: var(--fz-lg);
 }
 .content ul li i {
     padding-right: 5px;
@@ -86,4 +88,40 @@ h3 > span {
     position: absolute;
     top: 20px;
     left: 0;
+}
+
+@media screen and (max-width: 600px) {   
+    .ex__content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .ex__name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .active-btn {
+        color: var(--green);    
+        border-bottom: 2px solid var(--green);
+        border-left: none;
+        margin-bottom: -2px;
+    }
+    .ex__name {
+        margin-top: 10px;
+        border-bottom: 2px solid var(--lightest-navy);
+        border-left: none;
+        height: 120px;
+    }
+    .ex__text {
+        margin-top: 30px;
+    }
+    .job-btn {
+     
+      width: 170px;
+      height: 40px;
+      color: var(--slate);
+      text-align: center;
+    }
+    
 }

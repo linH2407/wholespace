@@ -1,9 +1,18 @@
 .my__container {
-    margin: 0 144px;
+   
+    margin: 0px auto;
+    max-width: 1000px;
+}
+.my__name h1 {
+    margin: 0px 0px 30px 4px;
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+    font-weight: 400;
 }
 h2 {
     display: block;
-    font-size: clamp(40px, 8vw, 70px);
+    font-size: clamp(40px, 8vw, 80px);
     color: var(--lightest-slate);
     line-height: 1.1;
     font-weight: 650;
@@ -20,4 +29,12 @@ h2 {
     max-width: 540px;
     height: 72px;
     font-size: 18px;
+}
+
+@media screen and (max-width: 786px) {
+     
+    .my__name h3{
+        line-height: 1.1;
+    }
+    
 }
