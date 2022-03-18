@@ -88,7 +88,6 @@ const About = () => {
           </div>
         </div>
         <div className='about__image-container'>
-
           <div className='about__image'>
             <img className='image' src={people} alt='people'/>
           </div>
