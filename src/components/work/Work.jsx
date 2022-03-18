@@ -244,6 +244,191 @@ const Work = () => {
           </div>
         </li>
       </ul>
+      <div className="work__title">
+        <div className="work__name">
+          <h2>Other Noteworthy Projects</h2>
+          <span>view the archive</span>
+        </div>
+        <div>
+          <div class="grid-container">
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>
+                  Large Laravel - how to build large and maintainable projects
+                  with Laravel framework
+                </h3>
+                <p>
+                  Building a custom multisite compatible WordPress plugin to
+                  build global search with Algolia
+                </p>
+              </div>
+              
+                <div className="grid__list1">
+                  <ul>
+                    <li>Laravel</li>
+                    <li>PHP</li>
+                  </ul>
+                </div>
+            
+            </div>
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>Build a Portfolio Using Bootstrap</h3>
+                <p>
+                  Welcome to the Bootstrap Portfolio Project! For this project,
+                  you'll be creating a personal web page to show off your work.
+                  We will test your HTML knowledge and then it will be up to you
+                  to use CSS to style your own page and make it unique.
+                </p>
+              </div>
+              <div className="grid__list2">
+                <ul>
+                  <li>HTML</li>
+                  <li>BootStrap</li>
+                  <li>Node</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>Smolrunners</h3>
+                <p>
+                  Building a custom multisite compatible WordPress plugin to
+                  build global search with Algolia
+                </p>
+              </div>
+              <div className="grid__list3">
+                <ul>
+                  <li>Algolia</li>
+                  <li>WordPress</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>Solve problem with dlops</h3>
+                <p>
+                  We are a network of designers, software engineers, data
+                  scientists and marketers whose passion for digital
+                  technologies binds us together to form this network of talents
+                  with abundant and diverse capabilities to tackle the most
+                  complex applications.
+                </p>
+              </div>
+              <div className="grid__list4">
+                <ul>
+                  <li>React</li>
+                  <li>Node</li>
+                  <li>Next.js</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>Web3 Crypto App</h3>
+                <p>
+                  This project demonstrates a basic Hardhat use case. It comes
+                  with a sample contract, a test for that contract, a sample
+                  script that deploys that contract, and an example of a task
+                  implementation, which simply lists the available accounts.
+                </p>
+              </div>
+              <div className="grid__list5">
+                <ul>
+                  <li>React</li>
+                  <li>Solidity</li>
+                  <li>Blockchain</li>
+                </ul>
+                <ul>
+                  <li>Ethers</li>
+                  <li>Hardhat</li>
+                </ul>            
+              </div>
+            </div>
+            <div class="grid-item">
+              <div className="grid__icon">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-folder"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-github"></i>
+                  </li>
+                </ul>
+              </div>
+              <div className="grid__content">
+                <h3>Chat application with React and socket.io</h3>
+                <p>
+                  This app was basic chat application dose not incluse database,
+                  it was fucus on React and socket.io.
+                </p>
+              </div>
+              <div className="grid__list6">
+                <ul>
+                  <li>MusicKit.js</li>
+                  <li>JS</li>
+                  <li>SCSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="work__show">
+          <button className="btn">Show More</button>
+        </div>
+      </div>
     </div>
   );
 };

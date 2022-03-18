@@ -1,5 +1,4 @@
-.contact__container {
-    padding-top: 100px;   
+.contact__container { 
     margin: 0px auto;
     max-width: 600px;
 }
@@ -37,7 +36,7 @@
     background-color: var(--green-tint);
 }
 .contact__icon {
-    display: flex;
+    display: none;
     justify-content: center;
     padding: 15px;
     margin-top: 140px;
@@ -49,4 +48,14 @@
 .contact__icon i:hover {
     color: var(--green);
     cursor: pointer;
+}
+@media screen and (min-width: 769px) {
+    .contact__container {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact__icon {
+        display: flex;
+    }
 }

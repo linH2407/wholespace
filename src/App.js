@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, My, About, Experience, Work, Contact } from './components';
+import { Navbar, My, About, Experience, Work, Contact, SocialLeft, SocialRight } from './components';
 
 import './App.css';
 
@@ -9,6 +9,7 @@ function App() {
       <div>
         <Navbar/>
       </div>
+      <SocialLeft/>
       <div className='main'>
         <My/>
         <About/>
@@ -16,6 +17,7 @@ function App() {
         <Work/>
         <Contact/>
       </div>
+      <SocialRight/>
     </div>
   );
 }

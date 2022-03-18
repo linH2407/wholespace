@@ -89,7 +89,7 @@ a:hover {
 .navbar-menu .btn {
     color: var(--green);
     background-color: transparent;
-    border: none;  
+    border: transparent;  
     font-family: var(--font-mono);
     line-height: 1;
     text-decoration: none;

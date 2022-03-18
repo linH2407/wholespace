@@ -1,0 +1,34 @@
+.social__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: fixed;
+    bottom: 110px;
+    left: 20px;
+}
+.social__icon::after {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 1px;
+    height: 90px;
+    background-color: var(--light-slate);
+    bottom: 0;
+    left: 45px;
+}
+.social__icon i {
+    padding: 15px;
+    color: var(--light-slate);
+}
+.social__icon i:hover {
+    color: var(--green);
+}
+
+@media screen and (max-width: 768px) {
+    .social__icon {
+        display: none;
+    }
+}

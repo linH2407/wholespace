@@ -1,0 +1,33 @@
+.social__icon-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+}
+.social__icon-right::after {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 1px;
+    height: 90px;
+    background-color: var(--light-slate);
+    bottom: 0;
+    right: 45px;
+}
+.social__icon-right i {
+    padding: 15px;
+    color: var(--light-slate);
+}
+.social__icon-right i:hover {
+    color: var(--green);
+}
+@media screen and (max-width: 768px) {
+    .social__icon-right {
+        display: none;
+    }
+}
